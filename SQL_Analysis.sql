@@ -85,9 +85,9 @@ ORDER BY total_sales DESC;
 ---Monthly Trend
 
 SELECT 
-    FORMAT(order_date, 'yyyy-MM') AS month,
+    YEAR(order_date) AS year,
+    MONTH(order_date) AS month,
     SUM(sales) AS total_sales
 FROM ecommerce
-GROUP BY FORMAT(order_date, 'yyyy-MM')
-ORDER BY month;
-
+GROUP BY YEAR(order_date), MONTH(order_date)
+ORDER BY year, month;
