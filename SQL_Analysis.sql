@@ -49,6 +49,10 @@ FROM dbo.Ecommerce_1000_Rows_Dataset;
 
 SELECT COUNT(*) FROM ecommerce;
 
+SELECT * FROM ecommerce WHERE sales IS NULL;
+
+SELECT * FROM ecommerce WHERE profit IS NULL;
+
 
 ---Total Sales & Profit
 
