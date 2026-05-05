@@ -20,3 +20,6 @@ This project analyzes e-commerce sales data using SQL and Power BI to identify t
 ## Files
 - Power BI Dashboard (.pbix)
 - SQL Queries (.sql)
+
+
+This project demonstrates end-to-end data analysis including data extraction, transformation, visualization, and business insight generation.
