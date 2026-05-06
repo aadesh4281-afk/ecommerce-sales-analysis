@@ -12,9 +12,9 @@ CREATE TABLE ecommerce (
     category VARCHAR(50),
     segment VARCHAR(50),
     product_name VARCHAR(100),
-    sales DECIMAL,
+    sales DECIMAL(10,2),
     quantity INT,
-    profit DECIMAL
+    profit DECIMAL(10,2)
 );
 
 
